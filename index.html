@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+i<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,11 +27,10 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 My Name</p>
+        <p>&copy; 2025 JethiYippee</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-    // Fetch and display About Me content from aboutme.txt as Markdown
     fetch('aboutme.txt')
       .then(response => response.text())
       .then(text => {
@@ -49,18 +48,15 @@
         list.innerHTML = '';
         repos.forEach(repo => {
           const li = document.createElement('li');
-          // Title link
           const a = document.createElement('a');
           a.href = repo.html_url;
           a.textContent = repo.name;
           a.target = '_blank';
           a.rel = 'noopener noreferrer';
           a.className = 'project-link';
-          // Description span
           const desc = document.createElement('span');
           desc.className = 'project-desc';
           desc.textContent = repo.description || 'No description';
-          // Add a small space between title and description
           li.appendChild(a);
           li.appendChild(document.createTextNode(' '));
           li.appendChild(desc);
