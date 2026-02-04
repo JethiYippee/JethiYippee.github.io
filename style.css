@@ -1,7 +1,7 @@
 /* Global */
 body {
     margin: 0;
-    background: #000;
+    background: #000000;
     color: #fff;
     font-family: Arial, sans-serif;
 }
@@ -107,3 +107,4 @@ body {
     max-height: 500px;
     opacity: 1;
 }
+
