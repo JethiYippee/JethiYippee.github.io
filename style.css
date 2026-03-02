@@ -108,3 +108,8 @@ body {
     opacity: 1;
 }
 
+h2 span {
+    font-size: 14px;
+    color: #888;
+}
+
