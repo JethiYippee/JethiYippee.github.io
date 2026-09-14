@@ -1,38 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Jethi_</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="favicon.ico">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d0618" />
+    <meta name="description" content="Jethro's personal profile page" />
+    <title>Jethro | personal profile</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <div class="marquee-field" aria-hidden="true">
+        <div class="marquee-row marquee-row--left">
+          <div class="marquee-track"><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span><span>meow :3</span></div>
+        </div>
+      </div>
 
-    <nav class="top-nav">
-        <a href="">Home</a>
-        <a href="/links">Links</a>
-        <a href="/zenox">Zenox</a>
-        <a href="/scratch">Scratch</a>
-        <a href="/fan-art">Fan Art</a>
-    </nav>
+      <div class="profile-stage">
+        <section class="profile" aria-labelledby="profile-title">
+          <div class="profile-heading">
+            <div class="avatar-wrap">
+              <img class="avatar" src="assets/pfp.jpg" alt="Jethro's profile picture" />
+              <div class="avatar-fallback" aria-hidden="true">J</div>
+            </div>
+            <div class="identity">
+              <div class="name-line">
+                <h1 id="profile-title">Jethro</h1>
+                <span class="pronouns">he/she/they</span>
+              </div>
+              <p class="bio">Autistic, Pansexual <img src="assets/Pansexual.png" alt="" /></p>
+            </div>
+          </div>
 
-    <div class="content">
-        
-        <h2>Jethro <span>he/him</span></h2>
-		<h2>sum stuff</h2>
-		<p>im Autistic, im from Belgium, im kinda Nonchallant, and Silly :P</p>
-        <h2>Interests</h2>
-        <p>Murder Drones, Minecraft, PSVita, Tearaway, Death Note, Among Us, Undertale, Deltarune, E, Zenox, Coding, apples 🍎, Geometry Dash, Computers, Electricity, Making Discord Bots, Bopl Battle, Portal, Emulators, Wii, PlayStation, Xbox, my blanket, grilled cheese.</p>
+        </section>
+      </div>
 
-        <h1>add my discord bot to all your servers pls</h1>
-        <p><a href="https://discord.com/oauth2/authorize?client_id=1462150594222358579&permissions=8&integration_type=0&scope=bot">Add Discord Bot</a></p>
-        <p><a href="https://discord.com/oauth2/authorize?client_id=1462150594222358579">Add User Application</a></p>
-
-        <img src="/assets/hotdog.gif" style="width:auto; height: 300px;">
-        <img src="/assets/skeleton-banging-shield.gif" style="width:auto; height: 300px;">
-        <img src="/assets/skating-basketball.gif" style="width: 230px;; height: auto;">
-        
-    </div>
-
-</body>
+      <section class="links-section" aria-labelledby="links-title">
+        <div class="links-section__inner">
+          <h2 id="links-title">Links</h2>
+          <ul class="simple-links" aria-label="More links">
+            <li><a href="https://www.exophase.com/user/JethiYippee" target="_blank" rel="noreferrer">Exophase</a></li>
+            <li><a href="https://en.pronouns.page/@JethiYippee" target="_blank" rel="noreferrer">Pronouns Page</a></li>
+            <li><a href="https://www.speedrun.com/users/jethi_" target="_blank" rel="noreferrer">Speedrun.com</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
